@@ -1,4 +1,5 @@
 require "byebug"
+require_relative "./board.rb"
 class Human_player
     attr_reader :mark
     def initialize(mark)
