@@ -32,8 +32,7 @@ class Board
                 if i2 < row.length - 1
                     print value.to_s + " "
                 else
-                    print value.to_s
-                    print "\n"
+                    puts value.to_s
                 end
             end
         end
